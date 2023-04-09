@@ -32,3 +32,15 @@ sudo apt full-upgrade
 
 For a production server, the option *upgrade* (instead of *full-upgrade*)
 might be a better choice because *upgrade* does not make major changes to software installations.
+
+### Setting the time and date
+
+To see Linux system's current date and time
+```console
+date
+```
+
+To change date & time (month, day, hour, minute, and year)
+```console
+sudo date 092810332021
+```

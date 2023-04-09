@@ -9,6 +9,8 @@ Shut down the system by command
 sudo shutdown -h now
 ```
 
+### Restarting the system
+
 To restart the system
 ```console
 sudo shutdown -r now

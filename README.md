@@ -44,3 +44,23 @@ To change date & time (month, day, hour, minute, and year)
 ```console
 sudo date 092810332021
 ```
+
+To see hardware time & date
+```console
+sudo hwclock --show
+```
+
+To manually set the hardware clock
+```console
+sudo hwclock --set --date "09/28/21 10:33:00"
+```
+
+To set the system time from PC's hardware clock
+```console
+sudo hwclock --hctosys
+```
+
+To set hardware clock using the system time
+```console
+sudo hwclock --systohc
+```

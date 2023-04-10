@@ -67,11 +67,13 @@ sudo hwclock --systohc
 
 ### Advanced Package Tool (APT)
 
-#### Install a new package
+#### Installing a new package
 
 ```console
 sudo apt install mysql-server
 ```
+
+#### Cleaning the cache
 
 APT maintains a package cache where it stores DEB files it has downloaded and installed.
 

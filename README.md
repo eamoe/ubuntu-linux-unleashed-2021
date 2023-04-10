@@ -64,3 +64,28 @@ To set hardware clock using the system time
 ```console
 sudo hwclock --systohc
 ```
+
+### Advanced Package Tool (APT)
+
+#### Install a new package
+
+```console
+sudo apt install mysql-server
+```
+
+APT maintains a package cache where it stores DEB files it has downloaded and installed.
+
+This usually lives in */var/cache/apt/archives* and can sometimes take up many hundreds
+of megabytes on the computer.
+
+You can have APT clean out the package cache by running the following command, which deletes all the cached DEB files.
+
+```console
+apt clean
+```
+
+Alternatively, you can run  the following command, which deletes cached DEB files that are beyond a certain age and keeps newer packages.
+
+```console
+apt autoclean
+```

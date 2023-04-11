@@ -91,3 +91,9 @@ Alternatively, you can run  the following command, which deletes cached DEB file
 ```console
 apt autoclean
 ```
+
+#### Removing packages
+
+```console
+apt remove [package name]
+```

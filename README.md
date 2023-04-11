@@ -97,3 +97,11 @@ apt autoclean
 ```console
 apt remove [package name]
 ```
+
+To remove configuration files along with the package (both commands do the same)
+
+```console
+apt remove -purge [package name]
+
+apt purge [package name]
+```

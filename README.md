@@ -105,3 +105,19 @@ apt remove -purge [package name]
 
 apt purge [package name]
 ```
+
+#### Apt-get vs Apt command
+
+| apt-get command                      | apt command                        |
+|--------------------------------------|------------------------------------|
+| ```console apt-get install```        | ```console apt install```          |
+| ```console apt-get remove```         | ```console apt remove```           |
+| ```console apt-get update```         | ```console apt update```           |
+| ```console apt-get upgrade```        | ```console apt upgrade```          |
+| ```console apt-get dist-upgrade```   | ```console apt full-upgrade```     |
+| ```console apt-get remove --purge``` | ```console apt purge```            |
+| ```console apt-get autoremove```     | ```console apt autoremove```       |
+| ```console apt-get search```         | ```console apt search```           |
+| ```console apt-get show```           | ```console apt show```             |
+| ```console dpkg --get-selections```  | ```console apt list --installed``` |
+| ```console apt-get purge```          | ```console apt purge```            |

@@ -228,3 +228,9 @@ snap changes
 ```
 
 ## Command-Line Interface
+
+Print working directory
+
+```console
+pwd
+```

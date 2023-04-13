@@ -186,3 +186,43 @@ To remove the software
 ```console
 ~/source/packagename$ sudo make uninstall
 ```
+
+#### Using the Snappy package manager
+
+To show a list of snap packages that are available to be installed
+
+```console
+snap find
+
+snap find searchterm
+```
+
+To install a snap package
+
+```console
+snap install packagename
+```
+
+To show a list of snap packages that are currently installed
+
+```console
+snap list
+```
+
+To update a snap package
+
+```console
+snap refresh packagename
+```
+
+To remove a snap package
+
+```console
+snap remove packagename
+```
+
+To display a list of changes, such as when snaps were installed, updated, or removed
+
+```console
+snap changes
+```

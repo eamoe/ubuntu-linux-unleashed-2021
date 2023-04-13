@@ -139,3 +139,50 @@ apt-get install automake
 apt-get autoremove checkinstall
 apt-get install checkinstall
 ```
+
+#### Compiling from tarball
+
+Uncompress tar file into the source directory (needs to be created in the home directory)
+
+```console
+tar zxvf packagename.tgz -C ~/source
+tar zxvf packagename.tar.gz -C ~/source
+tar jxvf packagename.bz -C ~/source
+tar jxvf packagename.tar.bz2 -C ~/source
+```
+
+If you are not certain what file compression method was used, use the file command to  figure it out
+
+```console
+file packagename
+```
+
+Run a script to check whether all dependencies are met and whether the build environment  is correct
+
+```console
+~/source/packagename$ ./configure
+```
+
+When your configure script succeeds, run the following to compile the software
+
+```console
+~/source/packagename$ make
+```
+
+Finally, run the following
+
+```console
+~/source/packagename$ sudo make install
+```
+
+If the compilation fails, check the error messages for the reason and run the following before  you start again
+
+```console
+~/source/packagename$ make clean
+```
+
+To remove the software
+
+```console
+~/source/packagename$ sudo make uninstall
+```

@@ -140,7 +140,7 @@ apt-get autoremove checkinstall
 apt-get install checkinstall
 ```
 
-#### Compiling from tarball
+### Compiling from tarball
 
 Uncompress tar file into the source directory (needs to be created in the home directory)
 
@@ -187,7 +187,7 @@ To remove the software
 ~/source/packagename$ sudo make uninstall
 ```
 
-#### Using the Snappy package manager
+### Using the Snappy package manager
 
 To show a list of snap packages that are available to be installed
 
@@ -226,3 +226,5 @@ To display a list of changes, such as when snaps were installed, updated, or rem
 ```console
 snap changes
 ```
+
+## Command-Line Interface

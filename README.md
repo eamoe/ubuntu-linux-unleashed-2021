@@ -121,3 +121,21 @@ apt purge [package name]
 | ```console apt-get show```           | ```console apt show```             |
 | ```console dpkg --get-selections```  | ```console apt list --installed``` |
 | ```console apt-get purge```          | ```console apt purge```            |
+
+#### Compiling software from source
+
+Install the *build-essential* package to ensure that you have the tools you need for compilation
+
+```console
+apt install build-essential
+```
+
+You may also need to install *automake* and *checkinstall*
+
+```console
+apt-get autoremove automake
+apt-get install automake
+
+apt-get autoremove checkinstall
+apt-get install checkinstall
+```

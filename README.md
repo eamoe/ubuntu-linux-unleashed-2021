@@ -234,3 +234,32 @@ Print working directory
 ```console
 pwd
 ```
+
+To read a man page
+
+```console
+man [command]
+```
+
+To read more info about command
+
+```console
+info [command]
+```
+
+To find commands related to some keyword
+
+```console
+apropos [keyword]
+```
+
+Or equivalent command
+```console
+man -k [keyword]
+```
+
+To find a command and its documentation
+
+```console
+whereis [command]
+```
